@@ -1,0 +1,13 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background: linear-gradient(114.29deg, #0B1926 -15.11%, #020606 106.05%);
+}
