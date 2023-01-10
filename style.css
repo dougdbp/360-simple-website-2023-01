@@ -49,10 +49,34 @@ nav {
     gap: 2.4rem;
 }
 
-li {
+ul {
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
     line-height: 120%;
     color: white;
+    list-style-type: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#firstButtonCall {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 120%;
+
+    justify-content: center;
+    align-items: center;
+    padding: 1.6rem 3.2rem;
+    gap: .8rem;
+
+    background: #01F28D;
+    box-shadow: 0px 7px 18px rgba(7, 39, 25, 0.4);
+    border-radius: 4.3rem;
+    cursor: pointer;
+}
+
+li:hover {
+    color: #01F28D;
 }
