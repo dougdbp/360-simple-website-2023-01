@@ -13,6 +13,9 @@
 body {
     position: relative;
     background: linear-gradient(114.29deg, #0B1926 -15.11%, #020606 106.05%);
+
+    justify-content: center;
+    align-items: center;
 }
 
 /*Cabeçalho*/
@@ -155,3 +158,64 @@ container {
 
 
 /*Estilização do Rodapé*/
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 9.1rem;
+
+    
+    
+    margin-left: 15.4rem;
+    margin-right: 15.4rem;
+    margin-top: 15.4rem;
+    margin-bottom: 4.4rem;
+}
+
+.footBloquinho {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 31.14rem;
+    height: 16.3rem;
+}
+
+.borderIconBloquinho {
+    justify-content: center;
+    align-items: center;
+    padding: 1.6rem;
+    gap: .498rem;
+
+    background: #003128;
+    border-radius: 72px;
+}
+
+.h3FootBloquinho {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.8rem;
+    line-height: 4.7rem;
+    
+    margin-top: .4rem;
+
+
+    color: #01F38D;
+}
+
+.pFootBloquinho {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 120%;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #D1FFEB;
+
+    opacity: 0.8;
+}
