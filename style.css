@@ -1,3 +1,4 @@
+/*Configuração básica inicial*/
 * {
     margin:0;
     padding: 0;
@@ -8,6 +9,50 @@
     font-size: 62.5%;
 }
 
+/*Inicio da estilização do corpodo site - Body*/
 body {
+    position: relative;
     background: linear-gradient(114.29deg, #0B1926 -15.11%, #020606 106.05%);
+}
+
+/*Cabeçalho*/
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 44.5rem;
+    
+    margin-left: 15.2rem;
+    margin-right: 15.2rem;
+    margin-top: 4.4rem;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 17.4rem;
+    height: 4.5rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 2.4rem;
+}
+
+.navList {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2.4rem;
+}
+
+li {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 120%;
+    color: white;
 }
